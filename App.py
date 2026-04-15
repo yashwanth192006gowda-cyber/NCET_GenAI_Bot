@@ -4,7 +4,7 @@ from groq import Groq
 st.set_page_config("PragyanAI Content Genrator",layout="wide")
 st.title("PragyanAI - Content Genrator")
 st.image("1776062160687.png")
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key=st.secrets["yppp"])
 
 product = st.text_input("Product")
 audience = st.text_input("Audience")
