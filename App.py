@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("PragyanAI Content Genrator",layout="wide")
 st.title("PragyanAI - Content Genrator")
-st.image("")
+st.image("1776062160687.png")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 product = st.text_input("Product")
